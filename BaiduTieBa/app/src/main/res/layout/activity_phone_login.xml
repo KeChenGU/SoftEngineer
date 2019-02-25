@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneLoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="短信验证登录"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/ib_phoneloginacivity_backlogin"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:background="@mipmap/zuojiantou"/>
+
+    <TextView
+        android:layout_width="117dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:background="@mipmap/baidu_logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎登陆百度账号"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="20dp" />
+
+    <EditText
+        android:id="@+id/et_phoneloginactivity_username"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号码"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="250dp"/>
+
+    <EditText
+        android:id="@+id/et_phoneloginactivity_phonecode"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入登录密码"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="20dp"/>
+
+    <Button
+        android:id="@+id/bt_phoneloginactivity_getphonecode"
+        android:layout_width="105dp"
+        android:layout_height="45dp"
+        android:layout_weight="1.5"
+        android:text="获取验证码"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="230dp"
+        android:background="#5CACEE"/>
+
+    <Button
+        android:id="@+id/bt_phoneloginactivity_gologin"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="账号密码登录"
+        android:textSize="17dp"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="372dp" />
+    <View
+        android:layout_width="2px"
+        android:layout_height="20dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginStart="140dp"
+        android:background="#000000"/>
+
+    <Button
+        android:id="@+id/bt_phoneloginactivity_more"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:text="更多"
+        android:textSize="17dp"
+        android:background="@android:color/transparent"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="372dp" />
+
+    <Button
+        android:id="@+id/bt_phoneloginactivity_login"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="425dp"
+        android:text="登录"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:onClick="onClick"
+        android:background="@drawable/button_rounded" />
+
+</RelativeLayout>

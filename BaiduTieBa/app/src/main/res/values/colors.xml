@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--默认-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLightBlue">#21ABF0</color>
+
+    <!--通用-->
+    <color name="wordBlack">#000000</color>
+    <color name="wordLightBlack">#515151</color>
+    <color name="wordLight">#C2BFBF</color>
+    <color name="backGray">#707070</color>
+    <color name="backLightGray">#CDCDCD</color>
+    <color name="backWhite">#FFFFFF</color>
+
+    <!--MainActivity:分隔线颜色-->
+        <!--底部导航栏-->
+    <color name="cutLineColor">#B2B9BD</color>
+
+    <!--MessageBodyFragment:-->
+        <!--标题栏底部黑线-->
+    <color name="tabBottom">#000000</color>
+
+    <!--MessageFragment:-->
+        <!---->
+    <color name="cutLineGray">#CDCDCD</color>
+    <color name="cutLineThickGray">#E7DBDB</color>
+
+</resources>

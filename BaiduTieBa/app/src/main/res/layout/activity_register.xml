@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/ib_registeractivity_backlogin"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:background="@mipmap/zuojiantou"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="45dp"
+        android:background="#9999"/>
+
+    <TextView
+        android:layout_width="117dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:background="@mipmap/baidu_logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎注册百度账号"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="20dp" />
+
+    <EditText
+        android:id="@+id/et_registeractivity_username"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名/邮箱/手机号"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="250dp"/>
+
+    <EditText
+        android:id="@+id/et_registeractivity_password1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/et_registeractivity_password2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="请再次输入密码"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/et_registeractivity_testCodes"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入验证码"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="20dp"/>
+
+    <ImageView
+        android:id="@+id/iv_registeractivity_showCode"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_weight="1.5"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:layout_marginTop="390dp"
+        android:layout_marginStart="230dp"/>
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="460dp"
+        android:text="注册"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:onClick="onClick"
+        android:background="@drawable/button_rounded" />
+
+</RelativeLayout>

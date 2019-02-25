@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@mipmap/zuojiantou"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:textSize="23dp"
+        android:textColor="#000000"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/bt_goregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textSize="23dp"
+        android:textColor="#436EEE"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="-5dp"/>
+
+    <TextView
+        android:layout_width="117dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:background="@mipmap/baidu_logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎登陆百度账号"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="20dp" />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名/邮箱/手机号"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="250dp"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入登录密码"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="20dp"/>
+
+    <Button
+        android:id="@+id/bt_loginactivity_gophonelogin"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="短信快捷登录"
+        android:textSize="17dp"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="372dp" />
+    <View
+        android:layout_width="2px"
+        android:layout_height="20dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginStart="140dp"
+        android:background="#000000"/>
+
+    <Button
+        android:id="@+id/phonedenglu"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:text="更多"
+        android:textSize="17dp"
+        android:background="@android:color/transparent"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="372dp" />
+
+    <Button
+        android:id="@+id/forgetpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="忘记密码"
+        android:textSize="17dp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="372dp"
+        android:layout_marginStart="250dp" />
+
+    <Button
+        android:id="@+id/bt_loginactivity_login"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="425dp"
+        android:text="登录"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:onClick="onClick"
+        android:background="@drawable/button_rounded" />
+
+    <ImageButton
+        android:id="@+id/qq"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginStart="20dp"
+        android:background="@mipmap/qq"/>
+
+    <ImageButton
+        android:id="@+id/wechat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginStart="140dp"
+        android:background="@mipmap/wechat"/>
+
+    <ImageButton
+        android:id="@+id/weibo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginStart="260dp"
+        android:background="@mipmap/weibo"/>
+
+</RelativeLayout>

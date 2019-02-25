@@ -1,0 +1,33 @@
+<resources>
+    <!--通用-->
+    <string name="app_name">BaiduTieBa</string>
+    <string name="message">消息</string>
+    <string name="talk">聊天</string>
+    <string name="notify">通知</string>
+    <string name="talk_icon">聊天图标</string>
+    <string name="text">文字</string>
+    <string name="picture">拍摄</string>
+    <string name="album">相册</string>
+    <string name="online">直播</string>
+    <!--MainActivity:底部导航栏-->
+    <string name="first_page">首页</string>
+    <string name="enter_bar">进吧</string>
+    <string name="distribute">发帖</string>
+    <string name="message_notify">消息</string>
+    <string name="my_details">我的</string>
+
+    <!--DistributeActivity:-->
+    <string name="write_title_my">发布到我的主页</string>
+    <string name="enjoy_write">来吧，尽情发挥吧。。。</string>
+    <!--MessageBodyFragment:标题栏-->
+    <string name="m_n_message">消息</string>
+    <string name="m_n_talk">聊天</string>
+    <string name="m_n_notify">通知</string>
+    <string name="m_n_talk_icon">聊天图标</string>
+
+    <!--MessageFragment-->
+    <string name="m_c_msg_mine">/@我的</string>
+    <string name="m_c_msg_like">点赞</string>
+    <string name="m_c_msg_right_arrow">右箭头</string>
+    <string name="m_c_msg_reply">回复</string>
+</resources>
